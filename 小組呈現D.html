@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>小組呈現 葛萊希爾露娜</title>
+    <link rel="stylesheet" href="小組呈現D.css">
+</head>
+
+<body>
+	<h1>城市 讓生活更美好</h1>
+	<h2>2018 台大資管營<br>第四小隊 葛萊希爾露娜</h2>
+	<ul>成員介紹
+		<li>隊輔 呂亮瑄 邱廷翔 陳旨鋒</li>
+		<li>組員 施秉榕 林辰潔 王坤智 吳宛蓁 施詠雯 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;孫名毅 莊雅筑 陳思緯 韓子鳴 許芷菱<br><br>		 </li>
+		
+	</ul>
+
+	<img id="photo" src='1.jpg' onclick="change()">
+	<button type = "button" onclick="change()">經過改善</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+	<img id="photo1" src='01.jpg' onclick="change2()">
+<script>
+	x=1;
+	function change(){
+	if (x>2)
+	{
+		x=2;
+		document.getElementById("photo").src=""+x+".jpg";
+	}
+	else{
+		x++;
+		document.getElementById("photo").src=""+x+".jpg";
+	}
+  	
+	}
+
+	y=1;
+	function change2(){
+  	y++;
+    document.getElementById("photo1").src="0"+y+".jpg";
+	}
+		
+</script>
+	
+	<button type = "button" onclick="change2()">經過改善</button>
+
+	<h2><a href="https://docs.google.com/forms/d/1FBgGm8uP4zlsuHILPWpNpxD6M_OSfUJ_8DjhMK5J318/edit?usp=drive_web" <a href="#" style="color:lightblue">意見反饋表單</a></h2>
+
+</body>
+</html>
